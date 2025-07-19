@@ -1,4 +1,3 @@
-import { div } from "framer-motion/client";
 import Contact from "../components/Contact";
 
 const ContactPage = () => {

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
@@ -6,7 +7,7 @@ const About = () => {
       <div className="max-w-5xl w-full bg-white text-black dark:bg-gray-900 dark:text-white transition-colors rounded-2xl shadow-lg p-8 md:p-12 flex flex-col md:flex-row items-center gap-10">
         {/* Profile Image */}
         <div className="w-40 h-40 flex-shrink-0">
-          <img
+          <Image
             src="/projects/photo.jpg"
             alt="Prashant Kumar"
             className="w-full h-full object-cover rounded-full border-4 border-blue-500"

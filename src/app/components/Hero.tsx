@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -6,7 +7,7 @@ const Hero = () => {
   return (
     <div className="flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="text-center lg:text-left">
-        <img
+        <Image
           src="/projects/photo.jpg"
           alt=""
           className="w-[100px] h-[100px] rounded-full mt-20 mb-5 mx-auto"
@@ -25,21 +26,21 @@ const Hero = () => {
         </h2>
         <div className="flex gap-5 justify-center lg:justify-start lg:transform lg:translate-x-48 mb-5">
           <Link href="https://github.com/Prashant20245?tab=repositories">
-            <img
+            <Image
               src="/projects/github.png"
               alt=""
               className="h-[30px] w-[30px]"
             />
           </Link>
           <Link href="https://www.linkedin.com/in/prashant-kumar-2395aa175?original_referer=">
-            <img
+            <Image
               src="/projects/linkedin.svg"
               alt=""
               className="h-[30px] w-[30px]"
             />
           </Link>
           <Link href="">
-            <img
+            <Image
               src="/projects/twitter.svg"
               alt=""
               className="h-[30px] w-[30px] text-white"
