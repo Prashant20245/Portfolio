@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="container max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Left side - Logo */}
-          <Link href="/" className="text-xl font-bold text-primary">
+          <Link href="/" className="text-xl font-bold text-blue-700">
             Devfolio
           </Link>
 
