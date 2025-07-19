@@ -6,11 +6,12 @@ const About = () => {
     <section className="min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white transition-colors flex items-center justify-center px-6 py-16">
       <div className="max-w-5xl w-full bg-white text-black dark:bg-gray-900 dark:text-white transition-colors rounded-2xl shadow-lg p-8 md:p-12 flex flex-col md:flex-row items-center gap-10">
         {/* Profile Image */}
-        <div className="w-40 h-40 flex-shrink-0">
+        <div className="relative w-[150px] h-[150px]">
           <Image
             src="/projects/photo.jpg"
             alt="Prashant Kumar"
-            className="w-full h-full object-cover rounded-full border-4 border-blue-500"
+            fill
+            className="object-cover rounded-full border-4 border-blue-500"
           />
         </div>
 

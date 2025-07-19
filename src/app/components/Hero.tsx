@@ -9,11 +9,15 @@ const Hero = () => {
       <div className="text-center lg:text-left">
         <Image
           src="/projects/photo.jpg"
-          alt=""
-          className="w-[100px] h-[100px] rounded-full mt-20 mb-5 mx-auto"
+          alt="Project photo"
+          width={100}
+          height={100}
+          className="rounded-full mt-20 mb-5 mx-auto"
         />
+
         <h1 className="text-[24px] sm:text-[30px] lg:text-[36px] lg:transform lg:translate-x-20">
-          Hi, I'm{" "}
+          {"I'm a developer"}
+
           <span className="text-blue-700 font-bold">Prashant Kumar</span>
         </h1>
         <h2 className="text-[14px] sm:text-[16px] lg:text-[18px] w-full mt-2 mb-5 px-2 sm:px-0">
@@ -28,22 +32,26 @@ const Hero = () => {
           <Link href="https://github.com/Prashant20245?tab=repositories">
             <Image
               src="/projects/github.png"
-              alt=""
+              alt="GitHub logo"
+              width={30}
+              height={30}
               className="h-[30px] w-[30px]"
             />
           </Link>
           <Link href="https://www.linkedin.com/in/prashant-kumar-2395aa175?original_referer=">
             <Image
               src="/projects/linkedin.svg"
-              alt=""
-              className="h-[30px] w-[30px]"
+              alt="LinkedIn icon"
+              width={30}
+              height={30}
             />
           </Link>
           <Link href="">
             <Image
               src="/projects/twitter.svg"
-              alt=""
-              className="h-[30px] w-[30px] text-white"
+              alt="Twitter icon"
+              width={30}
+              height={30}
             />
           </Link>
         </div>

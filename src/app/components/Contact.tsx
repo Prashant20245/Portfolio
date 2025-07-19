@@ -1,6 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import { BsTwitter } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { GiThunderBlade } from "react-icons/gi";
 import { LiaLinkedin } from "react-icons/lia";
 
@@ -93,7 +95,7 @@ const Contact = () => {
             className="flex items-center gap-4 p-4 bg-zinc-50 dark:bg-zinc-800 rounded-xl hover:bg-zinc-100 dark:hover:bg-zinc-700 transition-colors group"
           >
             <div className="w-10 h-10 bg-zinc-900 rounded-lg flex items-center justify-center">
-              <GiThunderBlade className="w-5 h-5 text-white" />
+              <FaGithub className="w-5 h-5 text-white" />
             </div>
             <div className="flex-1">
               <p className="font-medium text-zinc-900 dark:text-white">
@@ -133,7 +135,7 @@ const Contact = () => {
             className="flex items-center gap-4 p-4 bg-zinc-50 dark:bg-zinc-800 rounded-xl hover:bg-zinc-100 dark:hover:bg-zinc-700 transition-colors group"
           >
             <div className="w-10 h-10 bg-sky-500 rounded-lg flex items-center justify-center">
-              <BsTwitter className="w-5 h-5 text-white" />
+              <FaXTwitter className="w-5 h-5 text-white" />
             </div>
             <div className="flex-1">
               <p className="font-medium text-zinc-900 dark:text-white">
