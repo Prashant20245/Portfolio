@@ -7,16 +7,17 @@ const Hero = () => {
   return (
     <div className="flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="text-center lg:text-left">
-        <Image
-          src="/projects/photo.jpg"
-          alt="Project photo"
-          width={100}
-          height={100}
-          className="rounded-full mt-20 mb-5 mx-auto"
-        />
+        <div className="relative w-[100px] h-[100px] translate-x-50">
+          <Image
+            src="/projects/photo.jpg"
+            alt="Prashant Kumar"
+            fill
+            className="object-cover rounded-full border-4 border-blue-500"
+          />
+        </div>
 
         <h1 className="text-[24px] sm:text-[30px] lg:text-[36px] lg:transform lg:translate-x-20">
-          {"I'm a developer"}
+          {"Hi, I'm "}
 
           <span className="text-blue-700 font-bold">Prashant Kumar</span>
         </h1>
